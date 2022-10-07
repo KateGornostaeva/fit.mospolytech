@@ -9,6 +9,10 @@ header{
 body{
     font-family: 'PT Sans Narrow', sans-serif;
     background-color: #fee6c4;
+    
+}
+
+.main{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -18,8 +22,12 @@ body{
 footer{
     background-color: #88b6c5;
     font-size: 18px;
+    position: static; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 5px; /* Поля вокруг текста */
+    width: 100%
+    
 }
-
 
 h1, h2, h3, p, td{
     color: #3e2d26;
